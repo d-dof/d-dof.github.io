@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://d-dof.github.io/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/publication/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/talk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/author/yuto-mori-/-%E6%A3%AE-%E9%9B%84%E4%BA%BA/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/author/%E6%A3%AE-%E9%9B%84%E4%BA%BA-/-yuto-mori/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/author/yuto-mori-/-%E6%A3%AE-%E9%9B%84%E4%BA%BA/"
+                />
+  </url>
+  
+</urlset>
