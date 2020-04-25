@@ -5,12 +5,21 @@
     <link>https://d-dof.github.io/post/</link>
       <atom:link href="https://d-dof.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Yuto Mori</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Yuto Mori 2020</copyright><lastBuildDate>Sat, 25 Apr 2020 12:37:38 +0900</lastBuildDate>
     <image>
       <url>https://d-dof.github.io/images/icon_hue41c9815bcb191b17ee2aa1053a33549_67626_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://d-dof.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Open !!!</title>
+      <link>https://d-dof.github.io/post/1-intro/</link>
+      <pubDate>Sat, 25 Apr 2020 12:37:38 +0900</pubDate>
+      <guid>https://d-dof.github.io/post/1-intro/</guid>
+      <description>&lt;p&gt;This portfolio site has been deployed !!&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
