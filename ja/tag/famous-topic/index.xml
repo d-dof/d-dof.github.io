@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Famous Topic | D_dof</title>
+    <link>https://d-dof.github.io/ja/tag/famous-topic/</link>
+      <atom:link href="https://d-dof.github.io/ja/tag/famous-topic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Famous Topic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Yuto Mori 2020</copyright><lastBuildDate>Mon, 28 Sep 2020 12:52:40 +0900</lastBuildDate>
+    <image>
+      <url>https://d-dof.github.io/images/icon_hue41c9815bcb191b17ee2aa1053a33549_67626_512x512_fill_lanczos_center_2.png</url>
+      <title>Famous Topic</title>
+      <link>https://d-dof.github.io/ja/tag/famous-topic/</link>
+    </image>
+    
+    <item>
+      <title>カーネルモデルを近似する手法: Random Feature</title>
+      <link>https://d-dof.github.io/ja/post/random-feature/</link>
+      <pubDate>Mon, 28 Sep 2020 12:52:40 +0900</pubDate>
+      <guid>https://d-dof.github.io/ja/post/random-feature/</guid>
+      <description>&lt;p&gt;自分の備忘録も兼ねて, カジュアルに機械学習のちょっとした Tips をまとめるシリーズを始めてみたいと思います. 第一弾はカーネルモデルに対する近似手法について.&lt;/p&gt;
+&lt;p&gt;カーネルモデルを近似する方法としていくつかの方法 (Nyström近似など) がありますが, そのうちランダムな基底 (特徴) を用いて近似する手法を Random Feature といいます.
+これは 
+&lt;a href=&#34;#rahimi2008random&#34;&gt;[Rahimi and Recht, &lt;em&gt;NeurIPS&lt;/em&gt;, 2008]&lt;/a&gt;によって提案された手法で, アイディアはシンプルですが非常に面白いです.&lt;/p&gt;
+&lt;h3 id=&#34;bochner-の定理と-random-feature&#34;&gt;Bochner の定理と Random Feature&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\mathbb{R}^d$ 上の連続な平行移動不変カーネル $k(x, y) = k(x - y)$ が正定値であることの必要十分条件は $k(\delta)$ が非負測度のフーリエ変換となることである.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これは
+&lt;a href=&#34;#bochner-thm&#34;&gt;Bochner の定理&lt;/a&gt;と呼ばれるものです. この結果から具体的な表式として, 平行移動不変なカーネル関数はある確率分布 $p(\omega)$ を用いて次のように表現することができます.
+\begin{align}
+k(x-y) &amp;amp;= \int_{\mathbb{R}^d} p(\omega) e^{i \omega^{\top}(x-y)} d \omega\\&lt;br&gt;
+&amp;amp;= \mathbb{E} [e^{i \omega^{\top}x} \overline{e^{i \omega^{\top} y}}]
+\end{align}&lt;/p&gt;
+&lt;p&gt;ここでさらに, 実用上実数値カーネルを考えれば十分であることに注意し, 加法定理を用いて整理すると
+\begin{align}
+k(x-y) &amp;amp;= \mathbb{E}[\sqrt{2} \cos (\omega^{\top}x + b) \sqrt{2} \cos (\omega^{\top}y + b)]\\&lt;br&gt;
+&amp;amp;\approx \frac{1}{D} \sum_{j=1}^{D} \sqrt{2} \cos (\omega^{\top}_{j} x + b_j) \sqrt{2} \cos (\omega^{\top}_{j} y + b_j)
+\end{align}
+と表すことができます. なおここで $\omega, \omega_j \sim p(\omega), b, b_j \sim U[0, 2\pi]$ です. このとき, 上の期待値の不偏推定量による近似をシンプルに考えています.&lt;/p&gt;
+&lt;p&gt;さて, ここで&lt;br&gt;
+\begin{align}
+z(x) = \begin{pmatrix}
+\sqrt{\frac{2}{D}} \cos(\omega_1^{\top} x + b_1)\\&lt;br&gt;
+\vdots \\&lt;br&gt;
+\sqrt{\frac{2}{D}} \cos(\omega_D^{\top} x + b_D)
+\end{pmatrix}
+\end{align}
+という関数を考えると, ランダムに $x$ を $\mathbb{R}^D$ 上へ埋め込んでいる関数になっており, 先ほどの推定量は $z(x)^{\top} z(y)$ と書くことができます. この $z(x)$ こそが Random Features であって, 「(一般には無限次元空間への写像となりがちな) 特徴写像をランダムに (低次元空間への写像として) 近似したもの」と見ることもできるというカラクリです. 非常に面白いですね.&lt;/p&gt;
+&lt;!-- どんな時に使うの？--&gt;
+&lt;!-- カーネル法の簡単な振り返り--&gt;
+&lt;!-- やってみよう！--&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a name=&#34;rahimi2008random&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://papers.nips.cc/paper/3182-random-features-for-large-scale-kernel-machines.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ali Rahimi and Ben Recht. Random features for large-scale kernel machines. &lt;em&gt;Advances in Neural Information Processing Systems&lt;/em&gt;, 2008.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&#34;bochner-thm&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Bochner%27s_theorem&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia: Bochner&amp;rsquo;s theorem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gregorygundersen.com/blog/2019/12/23/random-fourier-features/&#34;&gt;http://gregorygundersen.com/blog/2019/12/23/random-fourier-features/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
