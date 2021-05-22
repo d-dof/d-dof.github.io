@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication | D_dof</title>
+    <link>https://d-dof.github.io/ja/tag/publication/</link>
+      <atom:link href="https://d-dof.github.io/ja/tag/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Yuto Mori 2021</copyright><lastBuildDate>Sat, 22 May 2021 19:58:02 +0900</lastBuildDate>
+    <image>
+      <url>https://d-dof.github.io/images/icon_hue41c9815bcb191b17ee2aa1053a33549_67626_512x512_fill_lanczos_center_2.png</url>
+      <title>Publication</title>
+      <link>https://d-dof.github.io/ja/tag/publication/</link>
+    </image>
+    
+    <item>
+      <title>BODAME: Bilevel Optimization for Defense Against Model Extraction</title>
+      <link>https://d-dof.github.io/ja/post/bodame/</link>
+      <pubDate>Sat, 22 May 2021 19:58:02 +0900</pubDate>
+      <guid>https://d-dof.github.io/ja/post/bodame/</guid>
+      <description>&lt;p&gt;arXiv にて論文を公開しました.&lt;/p&gt;
+&lt;p&gt;Yuto Mori, Atsushi Nitanda, and Akiko Takeda. BODAME: Bilevel Optimization for Defense Against Model Extraction. 2021. 
+&lt;a href=&#34;https://arxiv.org/abs/2103.06797&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[arXiv]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;題名の通り, モデル抽出攻撃 (Model Extraction) と呼ばれる攻撃から機械学習モデルを防御する問題を二段階最適化として定式化し, その最適化方法について提案したものです.&lt;/p&gt;
+&lt;p&gt;またそれに伴って, 修士の頃にまとめていたサーベイ資料の一部を公開しました.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/d-dof/survey_in_m2/blob/master/survey_in_m2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/d-dof/survey_in_m2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub レポジトリ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;コロナ禍に本格的に入っていくという段階でコツコツ日記代わりにまとめていたサーベイです. 主としてモデル抽出攻撃に関連するトピックについてまとめていますが, 次のようなトピックについての論文要約も一部入っています.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Active Learning&lt;/li&gt;
+&lt;li&gt;Semi-supervised Learning&lt;/li&gt;
+&lt;li&gt;Kernel Methods&lt;/li&gt;
+&lt;li&gt;Machine Teaching&lt;/li&gt;
+&lt;li&gt;Gaussian Process&lt;/li&gt;
+&lt;li&gt;Poisoning&lt;/li&gt;
+&lt;li&gt;Meta-Learning&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

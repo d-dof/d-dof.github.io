@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://d-dof.github.io/ja/post/bodame/</loc>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/post/bodame/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/post/bodame/"
+                />
+  </url>
+  
+  <url>
     <loc>https://d-dof.github.io/ja/</loc>
-    <lastmod>2020-12-13T14:50:48+09:00</lastmod>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,13 +33,23 @@
   </url>
   
   <url>
-    <loc>https://d-dof.github.io/ja/post/ibis-2020/</loc>
-    <lastmod>2020-12-13T14:50:48+09:00</lastmod>
+    <loc>https://d-dof.github.io/ja/tag/model-extraction/</loc>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tag/model-extraction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tag/model-extraction/"
+                />
   </url>
   
   <url>
     <loc>https://d-dof.github.io/ja/post/</loc>
-    <lastmod>2020-12-13T14:50:48+09:00</lastmod>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -35,6 +60,56 @@
                 hreflang="ja"
                 href="https://d-dof.github.io/ja/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/ja/tag/publication/</loc>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tag/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tag/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/ja/tag/survey/</loc>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tag/survey/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tag/survey/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/ja/tags/</loc>
+    <lastmod>2021-05-22T19:58:02+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/ja/post/ibis-2020/</loc>
+    <lastmod>2020-12-13T14:50:48+09:00</lastmod>
   </url>
   
   <url>
@@ -55,21 +130,6 @@
   <url>
     <loc>https://d-dof.github.io/ja/tag/random-feature/</loc>
     <lastmod>2020-09-28T12:52:40+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://d-dof.github.io/ja/tags/</loc>
-    <lastmod>2020-09-28T12:52:40+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://d-dof.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://d-dof.github.io/ja/tags/"
-                />
   </url>
   
   <url>

@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://d-dof.github.io/post/bodame/</loc>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/post/bodame/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/post/bodame/"
+                />
+  </url>
+  
+  <url>
     <loc>https://d-dof.github.io/</loc>
-    <lastmod>2020-09-28T13:01:34+09:00</lastmod>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -18,8 +33,23 @@
   </url>
   
   <url>
+    <loc>https://d-dof.github.io/tag/model-extraction/</loc>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tag/model-extraction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tag/model-extraction/"
+                />
+  </url>
+  
+  <url>
     <loc>https://d-dof.github.io/post/</loc>
-    <lastmod>2020-09-28T13:01:34+09:00</lastmod>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -29,6 +59,51 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://d-dof.github.io/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/tag/publication/</loc>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tag/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tag/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/tag/survey/</loc>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tag/survey/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tag/survey/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://d-dof.github.io/tags/</loc>
+    <lastmod>2021-05-22T20:43:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://d-dof.github.io/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://d-dof.github.io/tags/"
                 />
   </url>
   
@@ -129,20 +204,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://d-dof.github.io/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://d-dof.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://d-dof.github.io/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://d-dof.github.io/tags/"
                 />
   </url>
   

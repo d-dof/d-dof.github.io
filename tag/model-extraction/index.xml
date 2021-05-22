@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>D_dof</title>
-    <link>https://d-dof.github.io/</link>
-      <atom:link href="https://d-dof.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>D_dof</description>
+    <title>Model Extraction | D_dof</title>
+    <link>https://d-dof.github.io/tag/model-extraction/</link>
+      <atom:link href="https://d-dof.github.io/tag/model-extraction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Model Extraction</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©Yuto Mori 2021</copyright><lastBuildDate>Sat, 22 May 2021 20:43:18 +0900</lastBuildDate>
     <image>
       <url>https://d-dof.github.io/images/icon_hue41c9815bcb191b17ee2aa1053a33549_67626_512x512_fill_lanczos_center_2.png</url>
-      <title>D_dof</title>
-      <link>https://d-dof.github.io/</link>
+      <title>Model Extraction</title>
+      <link>https://d-dof.github.io/tag/model-extraction/</link>
     </image>
     
     <item>
@@ -39,23 +39,6 @@ It mainly summarizes topics related to model extraction attacks, but also includ
 &lt;li&gt;Poisoning&lt;/li&gt;
 &lt;li&gt;Meta-Learning&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Random Feature</title>
-      <link>https://d-dof.github.io/post/random-feature/</link>
-      <pubDate>Mon, 28 Sep 2020 13:01:34 +0900</pubDate>
-      <guid>https://d-dof.github.io/post/random-feature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open !!!</title>
-      <link>https://d-dof.github.io/post/1-intro/</link>
-      <pubDate>Sat, 25 Apr 2020 12:37:38 +0900</pubDate>
-      <guid>https://d-dof.github.io/post/1-intro/</guid>
-      <description>&lt;p&gt;This portfolio site has been deployed !!&lt;/p&gt;
 </description>
     </item>
     
